@@ -42,11 +42,9 @@ namespace txtFileReader
             }
             finally
             {
-                if (sr != null)
-                {
-                    sr.
-                }
-                                  
+                if (sr != null)                
+                    sr.Close();             
+                                 
             }
         }
     }
